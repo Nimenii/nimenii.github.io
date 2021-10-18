@@ -1,3 +1,3 @@
 # nimenii.github.io
 
-This is a website for myself! I have no idea how to use it yet...
+Currently I'm using this website to experiment with things.
