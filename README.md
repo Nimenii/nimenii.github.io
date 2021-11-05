@@ -1,3 +1,3 @@
 # nimenii.github.io
 
-This is a test website!
+A personal website for myself! In development...
