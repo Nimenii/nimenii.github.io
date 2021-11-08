@@ -4,10 +4,41 @@ html, body {
     height: 100%;
     font-family: 'Merriweather', serif;
     font-weight: 400;
-    background-color: lightblue;
+    background-image: linear-gradient(rgba(137, 207, 240, 1), white, white);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+
+.main-heading {
+    text-align: center;
+    letter-spacing: 10px;
+    color: white;
+}
+
+nav {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 5px 10px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 3px;
+}
+.nav-item:hover {
+    background-color: #EEE;
 }
