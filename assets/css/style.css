@@ -2,10 +2,12 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Red Hat Mono', monospace;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    background-color: lightblue;
 }
 
-/* Header font */
-.main-heading {
-    font-family: 'Roboto', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
 }
