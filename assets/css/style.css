@@ -6,6 +6,6 @@ html, body {
 }
 
 /* Header font */
-h1 {
+.main-heading {
     font-family: 'Roboto', sans-serif;
 }
