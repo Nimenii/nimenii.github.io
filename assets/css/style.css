@@ -4,7 +4,6 @@ html, body {
     height: 100%;
     font-family: 'Merriweather', serif;
     font-weight: 400;
-    background-image: linear-gradient(rgba(137, 207, 240, 1), white, white);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,24 +20,23 @@ a:hover {
 }
 
 .main-heading {
-    text-align: center;
-    letter-spacing: 10px;
+    /* letter-spacing: 10px; */
     color: white;
+    margin: 0.5em 1em;
+}
+
+header {
+    display: flex;
+    background-color: rgba(137, 207, 240, 1);
 }
 
 nav {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto 0 0;
     display: flex;
-    justify-content: center;
 }
 
 .nav-item {
-    padding: 5px 10px;
-    margin: 0 10px;
-    background-color: white;
-    border-radius: 3px;
-}
-.nav-item:hover {
-    background-color: #EEE;
+    padding: 0.5em;
+    margin: 10px;
 }
